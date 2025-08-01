@@ -27,3 +27,4 @@ workflows:
   build-and-deploy:
     jobs:
       - build-arm64-native
+        context: test
