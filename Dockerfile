@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 python:3.11-slim
+FROM python:3.12-slim
 
 # 防止缓存
 ENV DEBIAN_FRONTEND=noninteractive
