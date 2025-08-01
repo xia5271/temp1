@@ -21,3 +21,9 @@ jobs:
             echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
             docker build -t registry.cn-hangzhou.aliyuncs.com/xiak8s/shanxin-py1:arm64-latest .
             docker push registry.cn-hangzhou.aliyuncs.com/xiak8s/shanxin-py1:arm64-latest
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build-arm64-native
