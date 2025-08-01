@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/arm64
           push: true
-          tags: xiak8s/shanxin-py1:arm64-latest
+          tags: registry.cn-hangzhou.aliyuncs.com/xiak8s/shanxin-py1:arm64-latest
