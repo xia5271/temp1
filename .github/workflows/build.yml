@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/arm64
           push: true
-          tags: hmlp-test/hmlp-image-repo/py1:arm64-latest
+          tags: hmlp-test/shanxin-py1-arm:arm64-latest
